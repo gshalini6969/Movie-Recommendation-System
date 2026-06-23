@@ -3,7 +3,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics.pairwise import cosine_similarity
 movies = pd.read_csv("movies.csv")
 
-# Basic movie-recommendation system
+# Basic movie-recommendation system (recommendation by genre)
 # movie_name = input("Enter Movie: ").lower()
 
 # movie_row=movies[movies["Movie"].str.lower()==movie_name]
