@@ -45,6 +45,6 @@ movie_index = movies[
 
 scores = list(enumerate(similarity_matrix[movie_index]))
 scores=sorted(scores,reverse=True,key=lambda item: item[1])
-print("Recommended movies: ")
+print("\nTop 3 Recommendations:\n")
 for movie_index, score in scores[1:4]:
     print(movies.iloc[movie_index]["Movie"])
